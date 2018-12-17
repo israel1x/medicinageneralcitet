@@ -50,11 +50,11 @@ class TabChild extends Component {
               <Row form>
                 <Col sm="12">
                   <FormGroup>
-                    <Label for="namepaciente">1. Motivo de Consulta</Label>
+                    <Label for="motivoconpaciente">1. Motivo de Consulta</Label>
                     <Input
                       type="textarea"
-                      name="namepaciente"
-                      id="namepaciente"
+                      name="motivoconpaciente"
+                      id="motivoconpaciente"
                       rows="6"
                       placeholder="Ingrese los motivos de la consulta aquí"
                     />
@@ -66,7 +66,9 @@ class TabChild extends Component {
               <Row form>
                 <Col sm="12">
                   <FormGroup>
-                    <Label for="namepaciente">2. Antecedentes Personales</Label>
+                    <Label for="antecedentesfampa">
+                      2. Antecedentes Personales
+                    </Label>
                     <Input
                       type="textarea"
                       name="antecedentespaciente"
@@ -74,7 +76,9 @@ class TabChild extends Component {
                       rows="2"
                       placeholder="Ingrese los antecedentes aquí"
                     />
-                    <Label for="namepaciente">3. Antecedentes Familiares</Label>
+                    <Label for="antefampaciente">
+                      3. Antecedentes Familiares
+                    </Label>
                     <Input
                       type="textarea"
                       name="antecedentesfapaciente"
@@ -122,13 +126,13 @@ class TabChild extends Component {
                       rows="2"
                       placeholder="Ingrese los antecedentes aquí"
                     />
-                    <Label for="namepaciente">
+                    <Label for="signosvitalespaciente">
                       6. Signos Vitales y Antropometría
                     </Label>
                     <Input
                       type="textarea"
-                      name="antecedentesfapaciente"
-                      id="antecedentesfapaciente"
+                      name="signosvitalespaciente"
+                      id="signosvitalespaciente"
                       rows="3"
                       placeholder="Ingrese los antecedentes familiares aquí"
                     />
@@ -145,16 +149,16 @@ class TabChild extends Component {
                     </Label>
                     <Input
                       type="textarea"
-                      name="revactorganospaciente"
-                      id="revactorganospaciente"
+                      name="examenfisicopaciente1"
+                      id="examenfisicopaciente1"
                       rows="2"
                       placeholder="Ingrese los antecedentes aquí"
                     />
                     <br />
                     <Input
                       type="textarea"
-                      name="antecedentesfapaciente"
-                      id="antecedentesfapaciente"
+                      name="examenfisicopaciente2"
+                      id="examenfisicopaciente2"
                       rows="3"
                       placeholder="Ingrese los antecedentes familiares aquí"
                     />
@@ -173,41 +177,41 @@ class TabChild extends Component {
                         <label>1</label>
                       </Col>
                       <Col sm="4">
-                        <Label for="diagnosticopaciente">Descripción</Label>
+                        <Label for="descripcionpaciente">Descripción</Label>
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="descripcionpaciente1"
+                          id="descripcionpaciente1"
                           rows="3"
                           placeholder=""
                         />
                       </Col>
                       <Col sm="3">
-                        <Label for="diagnosticopaciente">CIE</Label>
+                        <Label for="ciepaciente">CIE</Label>
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="ciepaciente1"
+                          id="ciepaciente1"
                           rows="3"
                           placeholder=""
                         />
                       </Col>
                       <Col sm="2">
-                        <Label for="diagnosticopaciente">PRE</Label>
+                        <Label for="prepaciente">PRE</Label>
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="prepaciente1"
+                          id="prepaciente1"
                           rows="3"
                           placeholder=""
                         />
                       </Col>
                       <Col sm="2">
-                        <Label for="diagnosticopaciente">DEF</Label>
+                        <Label for="defpaciente">DEF</Label>
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="defpaciente1"
+                          id="defpaciente1"
                           rows="3"
                           placeholder=""
                         />
@@ -220,8 +224,8 @@ class TabChild extends Component {
                       <Col sm="4">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="descripcionpaciente2"
+                          id="descripcionpaciente2"
                           rows="3"
                           placeholder=""
                         />
@@ -229,8 +233,8 @@ class TabChild extends Component {
                       <Col sm="3">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="ciepaciente2"
+                          id="ciepaciente2"
                           rows="3"
                           placeholder=""
                         />
@@ -238,8 +242,8 @@ class TabChild extends Component {
                       <Col sm="2">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="prepaciente2"
+                          id="prepaciente2"
                           rows="3"
                           placeholder=""
                         />
@@ -247,8 +251,8 @@ class TabChild extends Component {
                       <Col sm="2">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="defpaciente2"
+                          id="defpaciente2"
                           rows="3"
                           placeholder=""
                         />
@@ -261,8 +265,8 @@ class TabChild extends Component {
                       <Col sm="4">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="descripcionpaciente3"
+                          id="descripcionpaciente3"
                           rows="3"
                           placeholder=""
                         />
@@ -270,8 +274,8 @@ class TabChild extends Component {
                       <Col sm="3">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="ciepaciente3"
+                          id="ciepaciente3"
                           rows="3"
                           placeholder=""
                         />
@@ -279,8 +283,8 @@ class TabChild extends Component {
                       <Col sm="2">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="prepaciente3"
+                          id="prepaciente3"
                           rows="3"
                           placeholder=""
                         />
@@ -288,8 +292,8 @@ class TabChild extends Component {
                       <Col sm="2">
                         <Input
                           type="text"
-                          name="antecedentesfapaciente"
-                          id="antecedentesfapaciente"
+                          name="defpaciente3"
+                          id="defpaciente3"
                           rows="3"
                           placeholder=""
                         />
@@ -303,11 +307,11 @@ class TabChild extends Component {
               <Row>
                 <Col sm="12">
                   <FormGroup>
-                    <Label for="namepaciente">9. Tratamiento</Label>
+                    <Label for="tratamientopaciente">9. Tratamiento</Label>
                     <Input
                       type="textarea"
-                      name="namepaciente"
-                      id="namepaciente"
+                      name="tratamientopaciente"
+                      id="tratamientopaciente"
                       rows="8"
                       placeholder="Ingrese el tratamiento"
                     />
@@ -319,11 +323,11 @@ class TabChild extends Component {
               <Row>
                 <Col sm="6">
                   <FormGroup>
-                    <Label for="namepaciente">Evolución:</Label>
+                    <Label for="evolucionpaciente">Evolución:</Label>
                     <Input
                       type="textarea"
-                      name="namepaciente"
-                      id="namepaciente"
+                      name="evolucionpaciente"
+                      id="evolucionpaciente"
                       rows="6"
                       placeholder="Ingrese los detalles de la evolución"
                     />
@@ -331,11 +335,11 @@ class TabChild extends Component {
                 </Col>
                 <Col sm="6">
                   <FormGroup>
-                    <Label for="namepaciente">Prescripción:</Label>
+                    <Label for="prescripcionpaciente">Prescripción:</Label>
                     <Input
                       type="textarea"
-                      name="namepaciente"
-                      id="namepaciente"
+                      name="prescripcionpaciente"
+                      id="prescripcionpaciente"
                       rows="6"
                       placeholder="Ingrese la prescripción"
                     />
