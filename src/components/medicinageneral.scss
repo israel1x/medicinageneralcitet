@@ -1,0 +1,13 @@
+.container-main {
+  //background-color: olive;
+  display: flex;
+  flex-direction: row;
+
+  > .container-navbar {
+    border-color: red;
+  }
+
+  > .container-main-panel {
+    border-color: red;
+  }
+}

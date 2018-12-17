@@ -1,0 +1,21 @@
+.contenedor-box {
+  background-color: red($color: #000000);
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+
+  .card-contenedor {
+    //background-color: red;
+    height: 230px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .col-data-paciente {
+    //background-color: olive;
+    align-content: flex-start;
+  }
+  .row-buscar {
+    align-items: flex-end;
+  }
+}
