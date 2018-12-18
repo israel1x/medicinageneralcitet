@@ -36,14 +36,14 @@ class TabFather extends Component {
     return (
       <div>
         <TabChild />
-        <div>
+        {/* <div>
           <Button size="normal" is-outlined>
             Guardar
           </Button>
           <Button color="link" is-outlined>
             Siguiente
           </Button>
-        </div>
+        </div> */}
       </div>
     );
   }
